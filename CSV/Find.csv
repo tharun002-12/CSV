@@ -1,0 +1,5 @@
+,Time,Weather,Temperature,Company,Humidity,Wind,Goes
+0,Morning,Sunny,Warm,Yes,Mild,Strong,No
+1,Evening,Rainy,Cold,No,Mild,Normal,Yes
+2,Morning,Sunny,Moderate,Yes,Normal,Normal,Yes
+3,Evening,Sunny,Cold,Yes,High,Strong,Yes
