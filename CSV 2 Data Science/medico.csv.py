@@ -4,7 +4,7 @@ from urllib.request import urlopen
 from pgmpy.models import BayesianModel
 from pgmpy.estimators import MaximumLikelihoodEstimator
 from pgmpy.inference import VariableElimination
-Cleveland_data_URL = "https://archive.ics.uci.edu/ml/machine-learning-databases/heart-disease/processed.hungarian.data"
+Cleveland_data_URL = "heart.csv"
 names = ['age', 'sex', 'cp', 'trestbps', 'chol', 'fbs', 'restecg', 'thalach', 'exang', 'oldpeak','slope', 'ca',
 'thal', 'heartdisease']
 heartDisease = pd.read_csv(urlopen(Cleveland_data_URL), names=names)
