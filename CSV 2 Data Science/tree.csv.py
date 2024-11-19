@@ -7,7 +7,7 @@ from sklearn.metrics import accuracy_score
 from sklearn.metrics import classification_report
 
 def importdata():
-    balance_data = pd.read_csv('https://archive.ics.uci.edu/ml/machine-learning-databases/balance-scale/balance-scale.data', sep=',', header=None)
+    balance_data = pd.read_csv('balance-scale', sep=',', header=None)
     print("Dataset Length:", len(balance_data))
     print("Dataset shape:", balance_data.shape)
 
